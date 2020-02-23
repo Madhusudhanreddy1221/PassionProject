@@ -9,7 +9,7 @@ namespace PassionProject.Models.ViewModels
     {
         public Bikes Bike { get; set; }
         public List<Make> Make { get; set; }
-        public List<Models> Model { get; set; }
+        public List<BikeModels> Model { get; set; }
 
     }
 }

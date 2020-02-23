@@ -17,7 +17,7 @@ namespace PassionProject.Models
         public int ModelID { get; set; }
         [ForeignKey("ModelID")]
 
-        public virtual Models Models { get; set; }
+        public virtual BikeModels Models { get; set; }
         public string BikeName { get; set; }
         public double Price { get; set; }
         public string Color { get; set; }

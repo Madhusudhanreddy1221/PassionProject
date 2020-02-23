@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PassionProject.Models
 {
-    public class Models
+    public class BikeModels
     {
         [Key]
         public int ModelID { get; set; }

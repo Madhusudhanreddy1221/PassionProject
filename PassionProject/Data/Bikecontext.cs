@@ -18,7 +18,7 @@ namespace PassionProject.Data
 
         public System.Data.Entity.DbSet<PassionProject.Models.Customers> Customers { get; set; }
         public System.Data.Entity.DbSet<PassionProject.Models.Make> Make { get; set; }
-        public System.Data.Entity.DbSet<PassionProject.Models.Models> Models { get; set; }
+        public System.Data.Entity.DbSet<PassionProject.Models.BikeModels> Models { get; set; }
         public System.Data.Entity.DbSet<PassionProject.Models.Order> Order { get; set; }
     }
 }
