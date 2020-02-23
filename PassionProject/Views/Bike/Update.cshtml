@@ -1,0 +1,17 @@
+﻿@model PassionProject.Models.Bikes
+
+
+@{
+    ViewBag.Title = "Update";
+}
+
+<h2>Update</h2>
+
+<form action="/Bike/Update/@Model.BikeID" method="POST">
+    <span>Bike Name</span><input type="text" value="@Model.BikeName" id="BikeName" name="BikeName" /><br />
+    <span>Color</span><input type="text" value="@Model.Color" id="Color" name="Color" /><br />
+   
+ 
+
+    <input type="submit" value="update pet" />
+</form>

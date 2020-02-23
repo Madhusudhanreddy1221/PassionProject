@@ -1,0 +1,14 @@
+﻿@model List<PassionProject.Models.Make>
+
+
+@{
+    ViewBag.Title = "Update";
+}
+
+<h2>Update@Model.Name</h2>
+<form action="Make/Update/@Model.MakeID" method="POST">
+    <span> Make Name</span><input type="text" value="@Model.Name" id="MakeName" name="MakeName" /><br />
+
+
+    <input type="submit" value="Update Make" />
+</form>

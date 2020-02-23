@@ -1,0 +1,11 @@
+﻿@model PassionProject.Models.Order
+
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2> @Model.Name Details</h2>
+<a href="/Make/List" class="btn btn-primary">Back to list</a>
+<a href="/Make/Update/@Model.MakeID" class="btn btn-primary" style="float:right">Update</a>
+
+<div>Name : @Model.Name</div>

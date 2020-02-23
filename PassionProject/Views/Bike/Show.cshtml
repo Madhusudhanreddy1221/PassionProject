@@ -1,0 +1,23 @@
+﻿@model PassionProject.Models.Bikes
+
+@{
+    ViewBag.Title = "Show";
+}
+
+    <div class="panel panel-primary">
+        <div class="panel-heading"><h2>  @Model.BikeName Details</h2></div>
+        <div class="panel-body">
+            
+            <a href="/Bike/List" class="btn btn-primary">Back to list</a><!--Button To naviagte back to list view-->
+            <a href="/Bike/Update/@Model.BikeID" class="btn btn-primary" style="float:right">Update</a>
+
+            <div class="panel-body">Name : @Model.BikeName</divpanel-body>
+            <div>Make : @Model.Make.Name</div>
+            <div>Model : @Model.Models.Name</div>
+            <div>Year : @Model.Models.Year</div>
+            <div>Engine Type : @Model.Models.EngineType</div>
+            <div>Power : @Model.Models.Power</div>
+            <div>Top Speed : @Model.Models.TopSpeed</div>
+            <div>Price : @Model.Price</div>
+        </div>
+    </div>
