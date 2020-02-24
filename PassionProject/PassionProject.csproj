@@ -172,6 +172,7 @@
     <Content Include="wireframes\IMG_1467.jpg" />
     <Content Include="wireframes\IMG_1469.jpg" />
     <Content Include="wireframes\IMG_1470.jpg" />
+    <Content Include="ERD\Bikes.docx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
